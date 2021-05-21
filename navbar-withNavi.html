@@ -1,0 +1,56 @@
+<div id="navi"><% NAVIGATION %>
+
+	<div id="nav">
+
+		<div id="guest-nav" class="hidenav">
+			<ul>
+				<li><a href="/index.php?act=Login&CODE=00" title="login"><div class="th-login"></div></a></li>
+				<li><a href="/index.php?act=Reg&CODE=00" title="register"><div class="th-power-o"></div></a></li>
+			</ul>
+		</div>
+
+		<div id="member-nav" class="hidenav">
+			<ul>
+				<script>
+					if ("<!-- |new_alerts| -->" != "0") {
+						document.write('<li class="ff-alertbb"><div class="sp-bubn"><!-- |new_alerts| --></div></li>');
+					}
+				</script>
+				<li><a href="index.php?act=UserCP&CODE=alerts" title="<!-- |new_alerts| --> new notifs"><div class="th th-notification"></div></a></li><script>
+					if ("<!-- |new_msg| -->" != "0") {
+						document.write('<li class="ff-alertbb"><div class="sp-bubn"><!-- |new_msg| --></div></li>');
+					}
+				</script>
+				<li><a href="index.php?act=Msg&CODE=01" title="<!-- |new_msg| --> new messages"><div class="th th-envelope"></div></a></li>
+				<li><a href="index.php?act=UserCP" title="settings"><div class="th-settings"></div></a></li>
+				<li><a href="index.php?act=store" title="store"><div class="th-credit-card"></div></a></li>
+				<li><a href="index.php?act=Pages&pid=1" title="calendar"><div class="th-calendar-2"></div></a></li>
+				<li><a href="index.php?showuser=<!-- |id| -->"><div class="th th-user"></div></a></li>
+				<li><a href="index.php?act=Login&CODE=03&key=<!-- |auth_key| -->" title="logout"><div class="th-logout"></div></a></li>
+				<li><% SUBACCOUNTS %></li>
+			</ul>
+		</div>
+
+		<div id="staff-nav" class="hidenav">
+			<ul>
+				<script>
+					if ("<!-- |new_alerts| -->" != "0") {
+						document.write('<li class="ff-alertbb"><div class="sp-bubn"><!-- |new_alerts| --></div></li>');
+					}
+				</script>
+				<li><a href="index.php?act=UserCP&CODE=alerts" title="<!-- |new_alerts| --> new notifs"><div class="th th-notification"></div></a></li><script>
+					if ("<!-- |new_msg| -->" != "0") {
+						document.write('<li class="ff-alertbb"><div class="sp-bubn"><!-- |new_msg| --></div></li>');
+					}
+				</script>
+				<li><a href="index.php?act=Msg&CODE=01" title="<!-- |new_msg| --> new messages"><div class="th th-envelope"></div></a></li>
+				<li><a href="index.php?act=UserCP" title="settings"><div class="th-settings"></div></a></li>
+				<li><a href="index.php?act=store" title="store"><div class="th-credit-card"></div></a></li>
+				<li><a href="index.php?act=Pages&pid=1" title="calendar"><div class="th-calendar-2"></div></a></li>
+				<li><a href="index.php?showuser=<!-- |id| -->"><div class="th th-user"></div></a></li>
+				<li><a href="admin.php" target="_blank" class="acp-<!-- |g_access_cp| -->" title="admin"><div class="th th-controls-2"></div></a></li>
+				<li><a href="index.php?act=Login&CODE=03&key=<!-- |auth_key| -->" title="logout"><div class="th-logout"></div></a></li>
+				<li><% SUBACCOUNTS %></li>
+			</ul>
+		</div>
+	</div>
