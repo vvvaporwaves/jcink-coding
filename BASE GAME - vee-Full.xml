@@ -1,0 +1,436 @@
+<?xml version="1.0"?>
+		<skin>
+
+		<skinname>BASE GAME - vee</skinname>
+		<date>Friday 21st of May 2021 03:32:14 PM</date>
+
+		<stylesheet>
+		/*=============================================== *
+ * BASE GAME - vee
+ * ==============================================
+ * #Version:	1.0.2
+ *=============================================== */
+
+/* BODY */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #222;
+  background: white;
+  text-align: left;
+}
+
+#wrapper {
+  width: 100%;
+}
+#innerwrapper {
+  padding: 1%;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #800000;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+/* CATEORIES + BOARDS */
+
+.tableborder {
+  border: 1px solid orange;
+}
+
+.maintitle {
+  font-size: 2rem;
+}
+
+.topic-title {
+  font-weight: bold;
+}
+
+.topic-desc {
+  font-style: italic;
+}
+
+/* pagination */ 
+
+.pagination a:link,
+.pagination a:visited,
+.pagination a:active {
+  border: 1px solid #838487;
+  background-color: #b93a32;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.pagination a:hover {
+  background: #af9483;
+  text-decoration: none;
+  color: #000000;
+}
+
+.pagination .pagination_current {
+  background: #ffffff;
+  border: 1px solid #545454;
+  padding: 5px;
+}
+
+.pagination_first,
+.pagination_last,
+.pagination_page {
+  background: #740300;
+  border: 1px solid #800000;
+}
+
+.pagination_pagetxt {
+  display: none;
+}
+
+/* THREADS */
+
+.activeuserstrip {
+  background-color: #b76ba3;
+  padding: 6px;
+}
+
+/* emoji table */
+
+.tablefill {
+  background-color: #00fbff;
+  border: 1px solid #555;
+  padding: 6px;
+}
+
+.tablepad {
+  background-color: #f6ff00;
+  padding: 6px;
+}
+
+.tablebasic {
+  width: 100%;
+  padding: 0;
+  margin: 0px;
+  border: 0px;
+}
+
+.plainborder {
+  border: 1px solid #555;
+  background-color: #00ff26;
+}
+
+/* quote + code */
+
+#QUOTE {
+  font-size: 11px;
+  color: #333;
+  border: 0px;
+}
+
+#CODE {
+  font-size: 11px;
+  color: #333;
+  padding: 2px;
+}
+
+/* BOARD STATISTICS */
+
+/* USER PROFILES */
+
+/* USER CONTROLS */
+
+#ucpmenu {
+  line-height: 150%;
+  width: 22%;
+  border: 1px solid #b18f6a;
+  background-color: #79c753;
+}
+
+#ucpmenu p {
+  padding: 2px 5px 6px 9px;
+  margin: 0px;
+}
+
+#ucpcontent {
+  background-color: #9896a4;
+  border: 1px solid #545454;
+  line-height: 150%;
+  width: auto;
+}
+
+#ucpcontent p {
+  padding: 10px;
+  margin: 0px;
+}
+
+/* REPLIES & PM MESSAGING */
+
+.pformstrip {
+  background-color: #a36888;
+  color: black;
+  padding: 2px 5px;
+}
+.pformleft {
+  background-color: #7ef2b6;
+  padding: 6px;
+  width: 25%;
+}
+.pformleftw {
+  background-color: #e1f27e;
+  padding: 6px;
+  width: 40%;
+}
+.pformright {
+  background-color: #f2c27e;
+  padding: 6px;
+}
+
+/* BUTTONS + INPUTS */
+
+.button-large {
+  background: #000;
+  padding: 5px 12px;
+  text-align: center;
+  margin: 0px 5px 0px 5px;
+  color: #dedede;
+  font-weight: bold;
+  min-width: 75px;
+  display: inline-block;
+}
+
+.button-small {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 11px;
+  margin: 3px;
+  padding: 4px 7px;
+  text-decoration: none;
+  min-width: 50px;
+  max-width: 80px;
+}
+
+.post-buttons-top {
+  margin-top: 3px;
+}
+
+.button-large.closed {
+  padding: 7px 12px;
+  text-align: center;
+  margin: 0px 5px 0px 5px;
+  border: 1px solid #d8d8d8;
+  color: #660000;
+  font-weight: bold;
+}
+
+.forminput,
+.codebuttons,
+.textinput,
+.radiobutton,
+.checkbox {
+  border-radius: 2px;
+  background: #fff;
+  border: 1px solid #545454;
+  color: #000;
+  font: 12px arial;
+  padding: 2px;
+  vertical-align: middle;
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 3px;
+  padding: 2px 6px;
+  text-decoration: none;
+  border: none;
+}
+
+/* MISC */
+
+form {
+  display: inline;
+}
+
+.copyright {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.codebuttons {
+  font-size: 10px;
+}
+
+#mobile {
+  background-color: #fbfbfb;
+}
+
+/* skin selector */
+#skin_selector {
+  margin: 10px 0;
+}
+
+/* HIDDEN CLASSES */
+
+#delcookiesrow,
+#mark-as-read-subto,
+#submenu,
+.newstext,
+.edit,
+.signature,
+.titlemedium,
+.toplinks,
+.postlinksbar,
+.topic-title-space,
+#userlinks,
+.wrapmini {
+  display: none;
+}
+
+#delcookiesrow,
+#mark-as-read-subto {
+  display: none;
+}
+		</stylesheet>
+
+		<wrappers>
+		<!DOCTYPE html><html>
+<head> 
+  <title>BASE GAME</title> 
+  <% CSS %> 
+  <% JAVASCRIPT %> 
+  <script src="https://kopefully.github.io/jcink-coding/jquery-1.6.js"></script>  
+</head> 
+    
+<body>
+
+<div id="wrapper">
+
+<% NAVIGATION %>
+
+    <% BOARD HEADER %>    
+    <!-- INNER WRAPPER START -->
+      <div id="innerwrapper"> 
+        <% BOARD %> 
+        <div id="skin_selector">
+          <% SKIN_SELECTOR %>
+        </div>
+        <% COPYRIGHT %>
+        <script>
+          $('#logo a img[src="style_images/1/spacer.gif"]').replaceWith('<!-- |board_name| -->');  
+        </script>
+      </div>
+    <!-- INNER WRAPPER END -->
+
+</div>
+	    
+</body> 
+</html>
+
+		</wrappers>
+
+		<macros>
+		<item name='SUB_SEPCHAR'></item>
+			<item name='P_REPORT'><span class='button-small'>Report</span></item>
+			<item name='P_YIM'><span class='button-small'>YIM</span></item>
+			<item name='P_WEBSITE'><span class='button-small'>Website</span></item>
+			<item name='P_QUOTE'><span class='button-small'>Quote</span></item>
+			<item name='P_MSG'><span class='button-small'>PM</span></item>
+			<item name='P_ICQ'><span class='button-small'>GTalk</span></item>
+			<item name='P_EMAIL'><span class='button-small'>Email</span></item>
+			<item name='P_EDIT'><span class='button-small'>Edit</span></item>
+			<item name='P_DELETE'><span class='button-small'>Delete</span></item>
+			<item name='P_AOL'><span class='button-small'>AIM</span></item>
+			<item name='M_UNREAD'><img alt="Unread Message" title="Unread Message" src="https://files.jcink.net/themes/default/red-cube-small.png" /></item>
+			<item name='CAMERA'>View</item>
+			<item name='M_READ'><img alt="Read Message" title="Read Message" src="https://files.jcink.net/themes/default/white-cube-small.png" /></item>
+			<item name='NO_PHOTO'></item>
+			<item name='F_STATS'></item>
+			<item name='NO_TOPICS'><div class="maintitle no-topics-subhead">No topics were found. This is either because there are no topics in this forum, or the topics are older than the current age cut-off.</div></item>
+			<item name='F_NAV_SEP'>&nbsp;&rarr;&nbsp;</item>
+			<item name='F_NAV'> &raquo; </item>
+			<item name='F_ACTIVE'></item>
+			<item name='C_ON_RES'></item>
+			<item name='C_ON_CAT'></item>
+			<item name='C_ON'></item>
+			<item name='C_OFF_RES'></item>
+			<item name='C_OFF_CAT'></item>
+			<item name='C_OFF'></item>
+			<item name='C_LOCKED'></item>
+			<item name='B_POLL_NN_DOT'></item>
+			<item name='B_POLL_DOT'></item>
+			<item name='B_NORM_DOT'></item>
+			<item name='B_HOT_NN_DOT'></item>
+			<item name='B_NEW_DOT'></item>
+			<item name='B_HOT_DOT'></item>
+			<item name='B_POLL_NN'></item>
+			<item name='B_POLL'></item>
+			<item name='B_PIN'><i class="cp cp-pin-o"></i></item>
+			<item name='T_ANNO_SUBHEAD'><div class="maintitle anno-subhead">announcements</div></item>
+			<item name='B_NORM'></item>
+			<item name='B_NEW'></item>
+			<item name='B_MOVED'></item>
+			<item name='B_LOCKED'><i class="cp cp-lock-o"></i></item>
+			<item name='B_HOT_NN'></item>
+			<item name='T_REG_SUBHEAD'><div class="maintitle regular-subhead">forum topics</div></item>
+			<item name='B_HOT'></item>
+			<item name='T_PIN_SUBHEAD'><div class="maintitle pin-subhead">pinned</div></item>
+			<item name='A_STAR'></item>
+			<item name='A_POLL'><div class='button-large'>New Poll</div></item>
+			<item name='A_REPLY'><div class='button-large'>Add Reply</div></item>
+			<item name='A_POST'><div class='button-large'>New Topic</div></item>
+			<item name='A_POLLONLY_B'><div class='button-large closed'>Closed</div></item>
+			<item name='A_MOVED_B'><div class='button-large closed'>Moved</div></item>
+			<item name='A_LOCKED_B'><div class='button-large closed'>Closed</div></item>
+			<item name='P_MSN'><span class='button-small'>MSN</span></item>
+			<item name='CAT_IMG'></item>
+			<item name='NEW_POST'><img src="https://files.jcink.net/themes/default/double-arrow.gif" /></item>
+			<item name='LAST_POST'><img src="https://files.jcink.net/themes/default/double-arrow.gif" /></item>
+			<item name='BR_REDIRECT'></item>
+			<item name='INTEGRITY_MSGR'><span class='button-small'>Skype</span></item>
+			<item name='ADDRESS_CARD'><span class='button-small'>Card</span></item>
+			<item name='T_QREPLY'><div class='button-large'>Fast Reply</div></item>
+			<item name='T_OPTS'><div class='button-large'>Topic Options</div></item>
+			<item name='CAL_NEWEVENT'><div class='button-large'>Add Event</div></item>
+			<item name='F_RULES'><img src='https://files.jcink.net/html/acp/rules.png' alt='Forum Rules'></item>
+			<item name='WARN_0'> <img src='https://files.jcink.net/themes/default/gray-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> </item>
+			<item name='WARN_1'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> </item>
+			<item name='WARN_2'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> </item>
+			<item name='WARN_3'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> </item>
+			<item name='WARN_4'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/gray-block.png'> </item>
+			<item name='WARN_5'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/red-block.png'> <img src='https://files.jcink.net/themes/default/red-block.png'> </item>
+			<item name='WARN_ADD'><img src='https://files.jcink.net/themes/default/red-block-plus.png'></item>
+			<item name='WARN_MINUS'><img src='https://files.jcink.net/themes/default/red-block-minus.png'></item>
+			<item name='LOGO'><img width='207' height='57' src="style_images/1/spacer.gif" /><!-- You can insert a logo image here in place of the white spacer --></item>
+			<item name='CUST_PROF'><div class="postbit"><div align='center'><!-- |avatar| --><br><!-- |title| --><br></div></div><div class="postbit"><img src='https://files.jcink.net/themes/default/users.png'> Group: <!-- |member_group| --> </div><div class="postbit"><img src='https://files.jcink.net/themes/default/posts.png'> Posts: <!-- |posts| --></div><div class="postbit"><img src='https://files.jcink.net/themes/default/joined.png'> Joined: <!-- |member_joined| --></div><div class="postbit">Age: <!-- |age| --><br>Location: <!-- |location| --><br>Status: <!-- |status| --><br></div><br><div style="margin-left: 14px;"><!-- |warn_text| --> <!-- |warn_minus| --><!-- |warn_img| --><!-- |warn_add| --></div></item>
+			<item name='B_PLUS_SHOW'></item>
+			<item name='B_MINUS_HIDE'></item>
+			
+		</macros>
+
+		<templates>
+		 <item name='profile'></item>
+ <item name='topic_row'></item>
+ <item name='mini_profile'></item>
+ <item name='post_row'></item>
+ <item name='redirect_row'></item>
+ <item name='subf_head'></item>
+ <item name='topic_list_head'></item>
+ <item name='cat_head'></item>
+ <item name='forum_row'></item>
+ <item name='memberlist_head'></item>
+ <item name='memberlist_row'></item>
+ <item name='board_stats'></item>
+
+		</templates>
+		
+		</skin>
