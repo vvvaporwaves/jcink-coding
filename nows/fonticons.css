@@ -1,0 +1,14 @@
+h5.category4-deco:before, h5.category4-deco:after {
+  font-family: "honeybee" !important;
+  display: block;
+}
+
+h5.category4-deco:after {
+  content: "\eca6";
+  margin-top: 10px;
+}
+
+h5.category4-deco:before {
+  content: "\eca8";
+  margin-bottom: 5px;
+}
