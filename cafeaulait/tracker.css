@@ -2,6 +2,8 @@
   background: #fbfbfb;
   border: 1px solid #d7a088;
   padding: 16px;
+  width: 550px;
+  margin: auto;
 }
 #vee-container .season h1 {
   margin: 0 0 0.5rem 0;
