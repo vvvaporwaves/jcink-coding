@@ -18,6 +18,9 @@
 #vee-container .season div[class*=nia-] {
   background: rgba(230, 200, 108, 0.5);
 }
+#vee-container .season div[class*=nia-] a {
+  color: #c26777
+}
 #vee-container .season div[class*=red-] {
   background: rgba(153, 47, 60, 0.5);
 }
