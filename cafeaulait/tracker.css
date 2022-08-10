@@ -13,6 +13,9 @@
   margin-bottom: 0.5rem;
   padding: 16px;
 }
+#vee-container .season div[class*=-complete] {
+  filter: grayscale(100%);
+}
 #vee-container .season div[class*=-thread] i {
   font-size: 0.9rem;
   margin-right: 0.1em;
