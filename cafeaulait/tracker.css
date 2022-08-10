@@ -1,0 +1,26 @@
+#vee-container {
+  background: #fbfbfb;
+  border: 1px solid #d7a088;
+  padding: 16px;
+}
+#vee-container .season h1 {
+  margin: 0 0 0.5rem 0;
+  padding: 0;
+  font-family: josefin sans;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#vee-container .season div[class*=-thread] {
+  margin-bottom: 0.5rem;
+  padding: 16px;
+}
+#vee-container .season div[class*=-thread] i {
+  font-size: 0.9rem;
+  margin-right: 0.1em;
+}
+#vee-container .season div[class*=nia-] {
+  background: rgba(230, 200, 108, 0.5);
+}
+#vee-container .season div[class*=red-] {
+  background: rgba(153, 47, 60, 0.5);
+}
