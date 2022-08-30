@@ -15,10 +15,12 @@
 .invu-tracker .links-container .tablinks {
   border-bottom: 5px solid #83938c;
   padding-bottom: 0.5rem;
+  font: 1.1rem 'Varela Round', sans-serif;
 }
 
 .invu-tracker .links-container .tablinks.active {
   border-bottom: 5px solid #DFB29B;
+  font-weight: bold;
 }
 
 .invu-tracker .tabs-container {
