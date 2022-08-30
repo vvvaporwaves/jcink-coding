@@ -2,7 +2,7 @@
   background: #fbfbfb;
   padding: 1.5rem;
   width: calc(100% - 3rem - 6px);
-  margin: 3rem auto 0;
+  margin: auto;
   font-family: roboto;
   border: 3px solid #ebe4e0;
 }
