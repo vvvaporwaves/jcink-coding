@@ -1,0 +1,89 @@
+body {
+  background: #F2F2F2;
+}
+
+.invu-tracker {
+  background: #fbfbfb;
+  padding: 1.5rem;
+  width: calc(100% - 3rem - 6px);
+  margin: 3rem auto 0;
+  font-family: roboto;
+  border: 3px solid #ebe4e0;
+}
+
+.invu-tracker .links-container {
+  display: grid;
+  grid: auto/repeat(auto-fill, 25%);
+}
+
+.invu-tracker .links-container .tablinks {
+  border-bottom: 5px solid #83938c;
+  padding-bottom: 0.5rem;
+}
+
+.invu-tracker .links-container .tablinks.active {
+  border-bottom: 5px solid #DFB29B;
+}
+
+.invu-tracker .tabs-container {
+  padding: 1.5rem 0 0rem;
+  position: relative;
+  display: grid;
+  grid: "tabscontent" auto/auto;
+}
+
+.invu-tracker .tabs-container .tabscontent {
+  display: flex;
+  grid-area: tabscontent;
+  flex-flow: row wrap;
+  flex-basis: 1;
+  align-content: flex-start;
+  gap: 0.25rem 0.5rem;
+  opacity: 0;
+  transition: 0.5s ease;
+  z-index: 2;
+}
+
+.invu-tracker .tabs-container .tabscontent.active {
+  opacity: 1;
+  display: flex;
+  z-index: 5;
+}
+
+.invu-tracker .tabs-container div[class*=nia] {
+  --charColour: rgba(230, 200, 108, 0.5);
+}
+
+.invu-tracker .tabs-container div[class*=red] {
+  --charColour: rgba(242, 159, 169, 0.5);
+}
+
+.invu-tracker .tabs-container div[class*=-complete] {
+  filter: grayscale(100%);
+}
+
+.invu-tracker .tabs-container div[class*=-thread] {
+  padding: 0.5rem;
+  background: var(--charColour);
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 0 10px 10px 0;
+}
+
+.invu-tracker .tabs-container div[class*=-thread] a {
+  color: var(--charColour);
+  -webkit-filter: brightness(30%);
+  text-decoration: none;
+}
+
+.invu-tracker .tabs-container div[class*=-thread] .owed {
+  font-size: 0.5rem;
+  display: block;
+  float: right;
+  margin: 0.25rem 0 0 0.25rem;
+}
+
+.invu-tracker .tabs-container div[class*=-thread] .owed .fa-circle {
+  opacity: 0.5;
+  font-size: 0.45rem;
+}
