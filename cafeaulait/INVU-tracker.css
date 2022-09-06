@@ -9,7 +9,8 @@
 
 .invu-tracker .links-container {
   display: grid;
-  grid: auto/repeat(auto-fill, 25%);
+  grid: auto / repeat(auto-fit, minmax(100px, 1fr))
+  width: 100%
 }
 
 .invu-tracker .links-container .tablinks {
