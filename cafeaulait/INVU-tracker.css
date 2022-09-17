@@ -9,7 +9,7 @@
 
 .invu-tracker .links-container {
   display: grid;
-  grid: auto / repeat(auto-fit, minmax(100px, 1fr))
+  grid: auto / repeat(auto-fit, minmax(100px, 1fr));
   width: 100%
 }
 
