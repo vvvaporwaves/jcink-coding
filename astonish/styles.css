@@ -1171,7 +1171,7 @@ html body #wrapper #innerWrapper #forumContainer #category1 #forum-1:hover {
 html body #wrapper #innerWrapper #forumContainer #category1 #forum-1:hover h3 a {
   color: #E8950E;
 }
-html body #wrapper #innerWrapper #forumContainer #category1 #forum-1 h3 {
+html body #wrapper #innerWrapper #forumContainer #category1 #forum-1 h3 a {
   font: bold 6.5rem/0.9em "cy";
   color: #0B6292;
   transition: 0.3s ease-in-out;
