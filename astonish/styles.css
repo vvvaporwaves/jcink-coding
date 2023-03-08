@@ -1171,11 +1171,10 @@ html body #wrapper #innerWrapper #forumContainer #category1 #forum-1:hover {
 html body #wrapper #innerWrapper #forumContainer #category1 #forum-1:hover h3 a {
   color: #E8950E;
 }
-html body #wrapper #innerWrapper #forumContainer #category1 #forum-1 h3 a {
+html body #wrapper #innerWrapper #forumContainer #category1 #forum-1 h3 {
   font: bold 6.5rem/0.9em "cy";
   color: #0B6292;
   transition: 0.3s ease-in-out;
-  pointer-events: none;
   flex: 0 0 auto;
   width: 79.3%;
   letter-spacing: unset;
@@ -1228,12 +1227,12 @@ html body #wrapper #innerWrapper #forumContainer #category1 #forum-4 {
     width: 33.333333%;
   }
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #wrapF56 {
+html body #wrapper #innerWrapper #forumContainer #category3 #wrapF56 {
   width: 100%;
 }
 @media (min-width: 768px) {
 
-  html body #wrapper #innerWrapper #forumContainer #category2 #wrapF56 {
+  html body #wrapper #innerWrapper #forumContainer #category3 #wrapF56 {
     border-right-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
@@ -1241,88 +1240,88 @@ html body #wrapper #innerWrapper #forumContainer #category2 #wrapF56 {
     width: 47.45%;
   }
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #wrapF789 {
+html body #wrapper #innerWrapper #forumContainer #category3 #wrapF789 {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
 }
 @media (min-width: 768px) {
 
-  html body #wrapper #innerWrapper #forumContainer #category2 #wrapF789 {
+  html body #wrapper #innerWrapper #forumContainer #category3 #wrapF789 {
     width: 52.55%;
   }
 }
-html body #wrapper #innerWrapper #forumContainer #category2 div[id*=forum-] {
+html body #wrapper #innerWrapper #forumContainer #category3 div[id*=forum-] {
   width: 100%;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-5 {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-5 {
   border-bottom: 1px solid white;
   padding-bottom: 4rem;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-5 h3 {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-5 h3 {
   font: bold 4.25rem/1em "cy";
   width: 60%;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-5 h3 .forumDesc {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-5 h3 .forumDesc {
   display: flex;
   flex-flow: wrap;
   color: #dedede;
   position: relative;
   z-index: 6;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-6 {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-6 {
   font-size: 2.5rem;
   padding: 0;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-6 ul {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-6 ul {
   display: none;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-6 h3 {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-6 h3 {
   padding-left: 2.5rem;
   margin-top: -1.5rem;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-6 h3 a {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-6 h3 a {
   display: inline-block;
   border: 1px solid white;
   background: url(https://i.postimg.cc/6BYnLXnH/bg2.png) 0/cover no-repeat fixed;
   padding: 0.5rem 0.75rem;
   font-size: 1.25rem;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-6 #rosterContain {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-6 #rosterContain {
   position: relative;
   z-index: 10;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 2.5rem 0.85rem;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-6 #rosterContain a {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-6 #rosterContain a {
   color: var(--elemColour);
   filter: saturate(50%) brightness(80%);
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-6 #rosterContain a:hover {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-6 #rosterContain a:hover {
   filter: saturate(120%) brightness(120%);
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-7 {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-7 {
   border-bottom: 1px solid white;
   width: 100%;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-7 ul {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-7 ul {
   display: grid;
   grid: auto/1fr 50px;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-7 ul li:nth-child(1) {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-7 ul li:nth-child(1) {
   grid-row-start: 1;
   grid-row-end: 2;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-7 ul li:nth-child(2) {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-7 ul li:nth-child(2) {
   grid-row-start: 2;
   grid-row-end: 3;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-7 ul li:nth-child(3) {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-7 ul li:nth-child(3) {
   grid-row-start: 3;
   grid-row-end: 4;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-7 ul li:nth-child(4) {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-7 ul li:nth-child(4) {
   grid-column-start: 3;
   grid-row-start: 1;
   grid-row-end: 4;
@@ -1330,19 +1329,19 @@ html body #wrapper #innerWrapper #forumContainer #category2 #forum-7 ul li:nth-c
   height: 50px;
   background: var(--elemColour);
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-7 ul li:nth-child(4) img {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-7 ul li:nth-child(4) img {
   transition: 0.3s ease-in-out;
   opacity: 0.7;
   filter: saturate(50%) brightness(80%);
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-7 ul:hover li img {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-7 ul:hover li img {
   filter: saturate(120%) brightness(120%);
   opacity: 0.8;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-8, html body #wrapper #innerWrapper #forumContainer #category2 #forum-9 {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-8, html body #wrapper #innerWrapper #forumContainer #category3 #forum-9 {
   width: 50%;
 }
-html body #wrapper #innerWrapper #forumContainer #category2 #forum-8 {
+html body #wrapper #innerWrapper #forumContainer #category3 #forum-8 {
   border-right-width: 1px;
   border-style: solid;
   --tw-border-opacity: 1;
