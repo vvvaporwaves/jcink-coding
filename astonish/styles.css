@@ -808,13 +808,13 @@ html body #wrapper #innerWrapper nav a.barMenu {
   justify-content: center;
   align-items: center;
 }
-html body #wrapper #innerWrapper nav #navstrip {
+html body #wrapper #innerWrapper nav #navContain {
   display: flex;
   flex-flow: wrap;
   align-items: center;
   padding: 0.5rem 1rem;
 }
-html body #wrapper #innerWrapper nav #navstrip a {
+html body #wrapper #innerWrapper nav #navContain a {
   font: 600 0.8rem/1em "ras";
   text-transform: uppercase;
   text-decoration: none;
