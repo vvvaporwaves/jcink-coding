@@ -1227,12 +1227,12 @@ html body #wrapper #innerWrapper #forumContainer #category1 #forum-5 {
     width: 33.333333%;
   }
 }
-html body #wrapper #innerWrapper #forumContainer #category3 #wrapF56 {
+html body #wrapper #innerWrapper #forumContainer #category3 #wrapF67 {
   width: 100%;
 }
 @media (min-width: 768px) {
 
-  html body #wrapper #innerWrapper #forumContainer #category3 #wrapF56 {
+  html body #wrapper #innerWrapper #forumContainer #category3 #wrapF67 {
     border-right-width: 1px;
     border-style: solid;
     --tw-border-opacity: 1;
@@ -1240,14 +1240,14 @@ html body #wrapper #innerWrapper #forumContainer #category3 #wrapF56 {
     width: 47.45%;
   }
 }
-html body #wrapper #innerWrapper #forumContainer #category3 #wrapF789 {
+html body #wrapper #innerWrapper #forumContainer #category3 #wrapF8910 {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
 }
 @media (min-width: 768px) {
 
-  html body #wrapper #innerWrapper #forumContainer #category3 #wrapF789 {
+  html body #wrapper #innerWrapper #forumContainer #category3 #wrapF8910 {
     width: 52.55%;
   }
 }
