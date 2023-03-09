@@ -1051,7 +1051,7 @@ html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationCont
 html body #wrapper #innerWrapper #forumContainer div[id*=category] {
   border-top: 1px solid white;
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category] ul::before {
+html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer ul.subareas::before {
   content: "inside:";
   text-transform: lowercase;
   font-size: 0.8rem;
