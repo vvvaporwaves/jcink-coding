@@ -1048,9 +1048,7 @@ html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationCont
     grid-template-columns: 47.45% 52.55%;
   }
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category] {
-  border-top: 1px solid white;
-}
+
 html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer .subareas::before {
   content: "inside:";
   text-transform: lowercase;
