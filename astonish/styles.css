@@ -1048,21 +1048,21 @@ html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationCont
     grid-template-columns: 47.45% 52.55%;
   }
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer {
+html body #wrapper #innerWrapper #forumContainer div[id*=category] {
   border-top: 1px solid white;
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer ul::before {
+html body #wrapper #innerWrapper #forumContainer div[id*=category] ul::before {
   content: "inside:";
   text-transform: lowercase;
   font-size: 0.8rem;
   margin-right: 0.5ch;
   font-weight: bold;
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer p {
+html body #wrapper #innerWrapper #forumContainer div[id*=category] p {
   font: 1rem "ras";
   margin-bottom: 0.5rem;
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer div[id*=forum-] {
+html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum-] {
   transition: 0.3s ease-in-out;
   padding: 2.5rem;
   position: relative;
