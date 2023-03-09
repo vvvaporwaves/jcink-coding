@@ -1425,7 +1425,7 @@ html body #wrapper #innerWrapper #forumContainer #categoryContent div[id*=catego
   font: normal 6rem/0.8em "cy";
   padding: 2.5rem 2.5rem 0 2.5rem;
 }
-html body #wrapper #innerWrapper #forumContainer #categoryContent div[id*=category] h3 {
+html body #wrapper #innerWrapper #forumContainer #categoryContent div[id*=category] h4 {
   padding: 0 2.5rem 2.5rem 2.5rem;
   text-transform: uppercase;
   font: 600 1.5rem/1em "ras";
