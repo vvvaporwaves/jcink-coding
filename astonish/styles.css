@@ -1062,15 +1062,15 @@ html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationCont
   font: 1rem "ras";
   margin-bottom: 0.5rem;
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum-] {
+html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer div[id*=forum-] {
   transition: 0.3s ease-in-out;
   padding: 2.5rem;
   position: relative;
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum-]:hover {
+html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer div[id*=forum-]:hover {
   background: rgba(0, 0, 0, 0.3);
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum-]:hover h6 {
+html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer div[id*=forum-]:hover h3 {
   filter: saturate(120%) brightness(120%);
   color: var(--elemInvert);
 }
@@ -1117,7 +1117,7 @@ html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum
   top: 0;
   left: 0;
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum-] h6 {
+html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer div[id*=forum-] h3 {
   color: var(--elemColour);
   font: 600 1.2rem "ras";
   letter-spacing: 0.05ch;
