@@ -1049,7 +1049,7 @@ html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationCont
   }
 }
 
-html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer .subareas::before {
+html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer .subforums::before {
   content: "inside:";
   text-transform: lowercase;
   font-size: 0.8rem;
