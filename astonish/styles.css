@@ -641,37 +641,37 @@ html {
   --base: rgb(11, 98, 146);
   --baseRaw: 11, 98, 146;
 }
-html [class*=-anemo], html .elem1 {
+html [class*=-anemo], .gr3 {
   --elemColour: rgb(98, 217, 176);
   --elemRaw: 98, 217, 176;
   --elemInvert: rgb(236, 158, 184);
 }
-html [class*=-geo] {
+html [class*=-geo], .gr6 {
   --elemColour: rgb(237, 184, 76);
   --elemRaw: 237, 184, 76;
   --elemInvert: rgb(125, 192, 255);
 }
-html [class*=-electro] {
+html [class*=-electro], .gr7 {
   --elemColour: rgb(184, 119, 217);
   --elemRaw: 184, 119, 217;
   --elemInvert: rgb(131, 165, 114);
 }
-html [class*=-dendro] {
+html [class*=-dendro], .gr8 {
   --elemColour: rgb(187, 224, 70);
   --elemRaw: 187, 224, 70;
   --elemInvert: rgb(200, 165, 255);
 }
-html [class*=-hydro] {
+html [class*=-hydro], .gr9 {
   --elemColour: rgb(39, 165, 232);
   --elemRaw: 39, 165, 232;
   --elemInvert: rgb(255, 151, 105);
 }
-html [class*=-pyro] {
+html [class*=-pyro], .gr10 {
   --elemColour: rgb(232, 134, 77);
   --elemRaw: 232, 134, 77;
   --elemInvert: rgb(45, 162, 231);
 }
-html [class*=-cryo] {
+html [class*=-cryo], .gr11 {
   --elemColour: rgb(128, 212, 232);
   --elemRaw: 128, 212, 232;
   --elemInvert: rgb(248, 193, 180);
