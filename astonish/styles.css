@@ -641,7 +641,7 @@ html {
   --base: rgb(11, 98, 146);
   --baseRaw: 11, 98, 146;
 }
-html [class*=-anemo], .gr-3 {
+html [class*=-anemo], .gr-12 {
   --elemColour: rgb(98, 217, 176);
   --elemRaw: 98, 217, 176;
   --elemInvert: rgb(236, 158, 184);
