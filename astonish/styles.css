@@ -1345,15 +1345,12 @@ html body #wrapper #innerWrapper #forumContainer #category3 #forum-9 {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
-html body #wrapper #innerWrapper #forumContainer #category10 h2 {
+html body #wrapper #innerWrapper #forumContainer #categoryFiller h2 {
   width: 100%;
   font: normal 4.5rem/0.9em "cy";
   padding: 1.75rem 0 1.25rem 1.5rem;
 }
-html body #wrapper #innerWrapper #forumContainer #category10 #forum-10000 {
-  width: 100%;
-  border-top: 1px solid white;
-}
+
 html body #wrapper #innerWrapper #forumContainer #categoryTabs h2 {
   font: normal 4rem/1em "cy";
   padding: 1.5rem 0 1.5rem 1.5rem;
