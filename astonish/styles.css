@@ -1090,7 +1090,6 @@ html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum
   margin-right: 0.6ch;
 }
 html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum-] .forumDesc {
-  margin-top: 0.25rem;
   text-transform: lowercase;
 }
 html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum-] .forumDesc span {
