@@ -1075,6 +1075,7 @@ html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationCont
 html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum-] h3 {
   font: 2rem "ras";
   letter-spacing: 0.01ch;
+  text-transform: lowercase;
 }
 html body #wrapper #innerWrapper #forumContainer div[id*=category] div[id*=forum-] ul {
   list-style-type: none;
