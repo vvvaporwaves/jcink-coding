@@ -1036,9 +1036,10 @@ html body #wrapper #innerWrapper #forumContainer div[id*=category] {
   flex-direction: row;
   flex-wrap: wrap;
 }
-html body #wrapper #innerWrapper #forumContainer div[id*=category]:not(#categoryTabs, #categoryContent) {
+html body #wrapper #innerWrapper #forumContainer div[id*=category]:not(#categoryTabs) {
   border-top: 1px solid white;
 }
+
 html body #wrapper #innerWrapper #forumContainer div[id*=category] #locationContainer {
   display: grid;
 }
@@ -1393,6 +1394,9 @@ html body #wrapper #innerWrapper #forumContainer #categoryContent {
   overflow: hidden;
   grid: "content" auto/auto;
   position: relative;
+}
+html body #wrapper #innerWrapper #forumContainer #categoryContent div[id*="category"] {
+  border-top: none!important;
 }
 html body #wrapper #innerWrapper #forumContainer #categoryContent .mondstadt {
   --regionBG: url(https://assets.codepen.io/4400499/mondstadt.jpg) 0/cover;
