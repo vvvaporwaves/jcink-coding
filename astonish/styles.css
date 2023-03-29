@@ -677,7 +677,7 @@ html [class*=-cryo], .gr-11 {
   --elemInvert: rgb(248, 193, 180);
 }
 html body {
-  background: url(https://i.postimg.cc/6BYnLXnH/bg2.png) 0/cover no-repeat fixed;
+  background: linear-gradient(0.25turn, #06082D, #080808) 0/cover no-repeat fixed;
   padding: 0;
   margin: 0;
   color: #dedede;
