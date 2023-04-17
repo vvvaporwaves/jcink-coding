@@ -1,0 +1,161 @@
+:root {
+  --j-m: 245, 110, 155;
+  --j-a: 168, 69, 181;
+  --j-d: 67, 232, 232;
+}
+
+#ofelia-app {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  width: 700px;
+  margin: auto;
+}
+#ofelia-app header {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+#ofelia-app header span {
+  font: 5rem/0.8em margin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ofelia-app header span:nth-child(1) {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  justify-content: end;
+}
+#ofelia-app header span:nth-child(1):before {
+  content: "";
+  display: block;
+  width: 55%;
+  border-top: 1px solid black;
+  margin-left: -2px;
+  margin-top: 0px;
+}
+#ofelia-app header span:nth-child(2) {
+  flex-basis: 45%;
+  display: flex;
+  justify-content: start;
+  margin-top: -1rem;
+}
+#ofelia-app header span:nth-child(2):before {
+  content: "";
+  display: block;
+  width: 45%;
+  border-top: 1px solid black;
+  margin-right: -2px;
+}
+#ofelia-app header span:nth-child(3) {
+  place-self: center end;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  bottom: 0;
+  right: 1rem;
+  width: 52%;
+  text-align: right;
+  margin-top: -2rem;
+}
+#ofelia-app #ofelia-content-container {
+  display: grid;
+  grid: auto/70% auto;
+}
+#ofelia-app #ofelia-content-container article {
+  padding: 2.5rem;
+}
+#ofelia-app #ofelia-content-container article .ofelia-content {
+  height: 300px;
+  overflow: auto;
+}
+#ofelia-app #ofelia-content-container article .ofelia-content span {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.7rem;
+  align-items: center;
+}
+#ofelia-app #ofelia-content-container article .ofelia-content span u {
+  text-decoration: none;
+}
+#ofelia-app #ofelia-content-container article .ofelia-content span .j-ofelia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 58px;
+  height: 60px;
+  padding-left: 2px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+#ofelia-app #ofelia-content-container article .ofelia-content section {
+  margin-top: 1.5rem;
+}
+#ofelia-app #ofelia-content-container aside div {
+  position: relative;
+}
+#ofelia-app #ofelia-content-container aside div h2 {
+  font-family: "margin";
+  font-size: 2.25rem;
+  font-weight: normal;
+  margin: 0;
+}
+#ofelia-app #ofelia-content-container aside div h2:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+#ofelia-app #ofelia-content-container aside div p {
+  margin: 0.25rem 1rem 1rem -1.76rem;
+  padding: 0 1rem;
+  text-transform: lowercase;
+}
+#ofelia-app #ofelia-content-container aside div:nth-child(1) {
+  margin-top: 2rem;
+}
+#ofelia-app #ofelia-content-container aside div:nth-child(1) i {
+  position: absolute;
+}
+#ofelia-app #ofelia-content-container aside div:nth-child(1) i:nth-of-type(1) {
+  font-size: 1rem;
+  top: 7px;
+  left: -15px;
+}
+#ofelia-app #ofelia-content-container aside div:nth-child(1) i:nth-of-type(2) {
+  font-size: 0.6rem;
+  top: 5px;
+  left: -3px;
+}
+#ofelia-app #ofelia-content-container aside div:nth-child(1) h2:before {
+  width: 115px;
+  height: 20px;
+  transform: rotate(-8deg);
+  top: 13px;
+  left: -15px;
+}
+#ofelia-app #ofelia-content-container aside div:nth-child(2) {
+  position: relative;
+}
+#ofelia-app #ofelia-content-container aside div:nth-child(2) i {
+  position: absolute;
+}
+#ofelia-app #ofelia-content-container aside div:nth-child(2) i:nth-of-type(1) {
+  font-size: 1rem;
+  top: 25px;
+  left: 72px;
+}
+#ofelia-app #ofelia-content-container aside div:nth-child(2) i:nth-of-type(2) {
+  font-size: 0.6rem;
+  top: 11px;
+  left: -10px;
+}
+#ofelia-app #ofelia-content-container aside div:nth-child(2) h2:before {
+  width: 105px;
+  height: 20px;
+  transform: rotate(4deg);
+  top: 13px;
+  left: -15px;
+}
