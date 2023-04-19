@@ -1,0 +1,156 @@
+#vee-app {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 700px;
+    margin: 0 auto 2rem;
+  }
+  #vee-app header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  #vee-app header span {
+    font: 5rem/0.8em margin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #vee-app header span:nth-child(1) {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    justify-content: end;
+  }
+  #vee-app header span:nth-child(1):before {
+    content: "";
+    display: block;
+    width: 55%;
+    border-top: 1px solid;
+    margin-left: -2px;
+    margin-top: 0px;
+  }
+  #vee-app header span:nth-child(2) {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: start;
+    margin-top: -1rem;
+  }
+  #vee-app header span:nth-child(2):before {
+    content: "";
+    display: block;
+    width: 45%;
+    border-top: 1px solid;
+    margin-right: -2px;
+  }
+  #vee-app header span:nth-child(3) {
+    place-self: center end;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    bottom: 0;
+    right: 1rem;
+    width: 52%;
+    text-align: right;
+    margin-top: -2rem;
+  }
+  #vee-app #vee-content-container {
+    display: grid;
+    grid: auto/70% auto;
+  }
+  #vee-app #vee-content-container article {
+    padding: 2.5rem;
+  }
+  #vee-app #vee-content-container article .vee-content {
+    height: 200px;
+    overflow: auto;
+  }
+  #vee-app #vee-content-container article .vee-content span {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.7rem;
+    align-items: center;
+  }
+  #vee-app #vee-content-container article .vee-content span u {
+    text-decoration: none;
+  }
+  #vee-app #vee-content-container article .vee-content span .j-vee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 58px;
+    height: 60px;
+    padding-left: 2px;
+    border-radius: 100%;
+    border: 1px solid;
+  }
+  #vee-app #vee-content-container article .vee-content section {
+    margin-top: 1.5rem;
+  }
+  #vee-app #vee-content-container aside div {
+    position: relative;
+  }
+  #vee-app #vee-content-container aside div h2 {
+    font-family: "margin";
+    font-size: 2.25rem;
+    font-weight: normal;
+    margin: 0;
+  }
+  #vee-app #vee-content-container aside div h2:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 1px solid;
+    border-radius: 100%;
+  }
+  #vee-app #vee-content-container aside div p {
+    margin: 0.25rem 1rem 1rem -1.76rem;
+    padding: 0 1rem;
+    text-transform: lowercase;
+  }
+  #vee-app #vee-content-container aside div:nth-child(1) {
+    margin-top: 2rem;
+  }
+  #vee-app #vee-content-container aside div:nth-child(1) i {
+    position: absolute;
+  }
+  #vee-app #vee-content-container aside div:nth-child(1) i:nth-of-type(1) {
+    font-size: 1rem;
+    top: 14px;
+    left: -13px;
+  }
+  #vee-app #vee-content-container aside div:nth-child(1) i:nth-of-type(2) {
+    font-size: 0.6rem;
+    top: 11px;
+    left: -1px;
+  }
+  #vee-app #vee-content-container aside div:nth-child(1) h2:before {
+    width: 115px;
+    height: 20px;
+    transform: rotate(-8deg);
+    top: 18px;
+    left: -15px;
+  }
+  #vee-app #vee-content-container aside div:nth-child(2) {
+    position: relative;
+  }
+  #vee-app #vee-content-container aside div:nth-child(2) i {
+    position: absolute;
+  }
+  #vee-app #vee-content-container aside div:nth-child(2) i:nth-of-type(1) {
+    font-size: 1rem;
+    top: 32px;
+    left: 72px;
+  }
+  #vee-app #vee-content-container aside div:nth-child(2) i:nth-of-type(2) {
+    font-size: 0.6rem;
+    top: 15px;
+    left: -10px;
+  }
+  #vee-app #vee-content-container aside div:nth-child(2) h2:before {
+    width: 105px;
+    height: 20px;
+    transform: rotate(4deg);
+    top: 19px;
+    left: -15px;
+  }
+  
