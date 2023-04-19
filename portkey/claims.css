@@ -2,6 +2,7 @@
   content: "\e3d6";
   display: inline-block;
   font-family: "Font Awesome 6 Pro";
+  padding-right: 0.5ch;
 }
 #pureblood-families ul grandchild {
   padding-left: 1.5rem;
@@ -10,4 +11,5 @@
   content: "\e3d6";
   display: inline-block;
   font-family: "Font Awesome 6 Pro";
+  padding-right: 0.5ch;
 }
