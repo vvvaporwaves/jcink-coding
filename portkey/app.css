@@ -103,13 +103,20 @@
     border-radius: 100%;
   }
   #vee-app #vee-content-container aside div p {
-    margin: 0.25rem 1rem 1rem -1.76rem;
+    margin: 0rem 1rem 0.5rem -1.76rem;
     padding: 0 1rem;
     text-transform: lowercase;
   }
   #vee-app #vee-content-container aside div:nth-child(1) {
     margin-top: 2rem;
   }
+  #vee-app #vee-content-container aside div:nth-child(1) {
+    margin-top: 2rem;
+  }
+#vee-app #vee-content-container aside div:nth-child(1) p {
+    max-height: 40px;
+    overflow: auto;
+}
   #vee-app #vee-content-container aside div:nth-child(1) i {
     position: absolute;
   }
@@ -221,6 +228,6 @@
 }
 
 .vee-notes {
-  height: 115px;
+  height: 118px;
   overflow: auto;
 }
