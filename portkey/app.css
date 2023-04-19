@@ -154,3 +154,69 @@
     left: -15px;
   }
   
+  #vee-app #vee-content-container article .vee-content span i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 58px;
+    height: 60px;
+    padding-left: 2px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+    
+#vee-app #vee-content-container article .vee-content {
+    height: 348px!important;
+    padding-right: 1rem;
+    font-size: 0.8rem
+} 
+
+.vee-content hr {
+    border-bottom: 1px solid var(--mg-color)!important;
+} 
+
+#vee-app #vee-content-container aside div:nth-child(3) h2:before {
+    width: 100px; 
+    height: 20px; 
+    top: 18px; 
+    left:-15px; 
+    transform: rotate(-5deg);
+} 
+.profile-app-body{
+    max-height:unset!important;
+}
+
+#vee-app{
+    width: 700px; 
+    border: 1px solid; 
+    border-bottom: 0px!important; 
+    display: grid; 
+    margin: auto;grid: auto / 1fr 1fr
+}
+    
+#vee-app span {
+    padding: 1rem; 
+    display: flex; 
+    justify-content: space-between
+}
+
+#vee-app span:not(:nth-child(5), :nth-child(6)) {
+    border-bottom: 1px solid;
+} 
+
+#vee-app span:nth-child(odd) {
+    border-right: 1px solid;
+}
+
+#vee-app span dd {
+    margin: 0px;
+}
+
+#vee-app span dt {
+    text-transform: uppercase; 
+    color: var(--mg-color); 
+    font-weight: bold; 
+    font-size: 0.6rem; 
+    letter-spacing: 0.1ch;
+}
