@@ -1,13 +1,13 @@
 #pureblood-families ul child:before {
   content: "\e3d6";
   display: inline-block;
-  font-family: "Font Awesome Pro 6";
+  font-family: "Font Awesome 6 Pro";
 }
 #pureblood-families ul grandchild {
-  padding-left: 0.5rem;
+  padding-left: 1.5rem;
 }
 #pureblood-families ul grandchild:before {
   content: "\e3d6";
   display: inline-block;
-  font-family: "Font Awesome Pro 6";
+  font-family: "Font Awesome 6 Pro";
 }
