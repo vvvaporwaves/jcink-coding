@@ -9,7 +9,7 @@
   font-display: block;
 }
 
-[class^="pki-"], [class*=" pki-"] {
+[class^="pki-"], [class*="pki-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'pki' !important;
   speak: never;
