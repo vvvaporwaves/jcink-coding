@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'portkey';
+  font-family: 'pki';
   src:  url('fonts/icomoon.eot?zenvgs');
   src:  url('https://vvvaporwaves.github.io/jcink-coding/portkey/fonts/portkey.eot#iefix') format('embedded-opentype'),
     url('https://vvvaporwaves.github.io/jcink-coding/portkey/fonts/portkey.ttf?zenvgs') format('truetype'),
@@ -9,7 +9,7 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="pki-"], [class*=" pki-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'portkey' !important;
   speak: never;
@@ -24,15 +24,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.pk-med-star-4:before {
+.pki-med-star-4:before {
   content: "\e900";
 }
-.pk-thin-star-4:before {
+.pki-thin-star-4:before {
   content: "\e901";
 }
-.pk-thin-star-8:before {
+.pki-thin-star-8:before {
   content: "\e902";
 }
-.pk-thick-star-4:before {
+.pki-thick-star-4:before {
   content: "\e903";
 }
