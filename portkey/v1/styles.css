@@ -766,6 +766,8 @@ video {
   border-right: 1px solid #1d1422;
 }body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-child(odd) a {
   color: #a74314;
+}body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-child(odd) .suboforums a {
+  border-bottom: 1px solid #a74314;
 }body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-child(even):not(#forum-5) {
   border-top: 0px;
   border-left: 0px;
