@@ -766,13 +766,15 @@ video {
   border-right: 1px solid #1d1422;
 }body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-child(odd) a {
   color: #a74314;
-}body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-child(odd) .suboforums a {
+}body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-child(odd) .subforums a {
   border-bottom: 1px solid #a74314;
 }body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-child(even):not(#forum-5) {
   border-top: 0px;
   border-left: 0px;
 }body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-child(even):not(#forum-5) a {
   color: #433654 !important;
+}body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-child(even):not(#forum-5) .subforums a {
+  border-bottom: 1px solid #433654 !important;
 }body #wrapper #inner-wrapper #category-2 div[id*=forum-]:last-of-type, body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-last-child(1) {
   border-bottom: 0px;
 }body #wrapper #inner-wrapper #category-2 div[id*=forum-]:nth-child(n+1):nth-child(-n+4) {
