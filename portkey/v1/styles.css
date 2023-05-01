@@ -356,10 +356,10 @@ video {
   --mg-color-dark: #593030;
 }.ravenclaw, ravenclaw, .mg-7 {
   --mg-color: /*#527BBA*/ #8694BC;
-  --mg-color: #303953;
+  --mg-color-dark: #303953;
 }.slytherin, slytherin, .mg-9 {
   --mg-color: /*#78AF6B*/ #8DBC86;
-  --mg-color: #385733
+  --mg-color-dark: #385733
 }.faculty, faculty, .mg-10 {
   --mg-color: /*#66B2B2*/ #86BCBC;
   --mg-color-dark: #3B6262;
