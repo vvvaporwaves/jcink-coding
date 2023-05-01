@@ -1016,7 +1016,7 @@ video {
   grid-column: 10/span 3;
 }body #wrapper #inner-wrapper #board-statistics #board-stats-container {
   display: grid;
-  grid: auto/330px 325px 1fr;
+  grid: auto/1.37fr auto 1fr;
 }body #wrapper #inner-wrapper #board-statistics #board-stats-container #currently-online-container {
   grid-column: 1/3;
   border-top: 1px solid #1d1422;
@@ -1051,6 +1051,7 @@ video {
 }body #wrapper #inner-wrapper #board-statistics #board-stats-container #online-today-container #online-today section {
   height: 150px;
   overflow: auto;
+  font-size: 0rem;
 }body #wrapper #inner-wrapper #board-statistics #board-stats-container #online-today-container #online-today a {
   font: 0.5rem "portkey-reg";
   letter-spacing: 0.05ch;
