@@ -552,8 +552,12 @@ video {
   padding: 2rem;
 }body #wrapper #inner-wrapper div[id*=category-] div[id*=forum-]:nth-child(odd) a {
   color: #433654;
+}body #wrapper #inner-wrapper div[id*=category-] div[id*=forum-]:nth-child(odd) .subforums a{
+  border-bottom: 1px solid #433654;
 }body #wrapper #inner-wrapper div[id*=category-] div[id*=forum-]:nth-child(even):not(#forum-47) a {
   color: #a74314;
+}body #wrapper #inner-wrapper div[id*=category-] div[id*=forum-]:nth-child(even):not(#forum-47) .subforums a {
+  border-bottom: 1px solid #a74314;
 }body #wrapper #inner-wrapper div[id*=category-] div[id*=forum-] .forum-description b {
   font-family: "portkey-reg";
   font-size: 0.5rem;
@@ -720,6 +724,8 @@ video {
   z-index: 5;
 }body #wrapper #inner-wrapper #category-6 #forum-47 a {
   color: #433654;
+}body #wrapper #inner-wrapper #category-6 #forum-47 .subforums a {
+  border-bottom: 1px solid #433654;
 }body #wrapper #inner-wrapper #category-2 h2 span {
   display: block;
   position: relative;
