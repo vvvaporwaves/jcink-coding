@@ -912,8 +912,6 @@ video {
   transform-origin: 10px;
 }body #wrapper #inner-wrapper #category-3 h2 .deco-container div[class*=star-]:nth-of-type(3)::before {
   font-size: 1.1rem;
-}body #wrapper #inner-wrapper #board-statistics {
-  background: rgba(250, 250, 250, 0.25);
 }body #wrapper #inner-wrapper #board-statistics h2 {
   background: url(https://vvvaporwaves.github.io/jcink-coding/portkey/v1/bg-cut.png) 0/cover fixed;
   padding: 10rem 2rem 2rem;
