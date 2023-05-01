@@ -1057,7 +1057,7 @@ video {
   overflow-x: auto;
 }body #wrapper #inner-wrapper #board-statistics #board-stats-container #recent-topics-container #recent-topics #recent-topics-inner {
   display: grid;
-  grid: auto/repeat(10, minmax(160px, 1fr));
+  grid: auto/repeat(7, minmax(160px, 1fr));
   gap: 1rem;
   font-size: 0;
   padding: 0.5rem 0;
