@@ -343,21 +343,29 @@ video {
   font-style: normal;
   font-display: swap;
 }.mg-4, .admin {
-  --mg-color: #ad92a8;
+  --mg-color: #dfb1d4;
+  --mg-color-dark: #5b3653;
 }.mg-3, .member {
   --mg-color: #ad9792;
+  --mg-color-dark: #5e433d;
 }.hufflepuff, hufflepuff, .mg-8 {
   --mg-color: /*#BBAD6C*/ #BCB186;
+  --mg-color-dark: #625A3B;
 }.gryffindor, gryffindor, .mg-6 {
   --mg-color: /*#C95656*/ #BC8686;
+  --mg-color-dark: #593030;
 }.ravenclaw, ravenclaw, .mg-7 {
   --mg-color: /*#527BBA*/ #8694BC;
+  --mg-color: #303953;
 }.slytherin, slytherin, .mg-9 {
   --mg-color: /*#78AF6B*/ #8DBC86;
+  --mg-color: #385733
 }.faculty, faculty, .mg-10 {
   --mg-color: /*#66B2B2*/ #86BCBC;
+  --mg-color-dark: #3B6262;
 }.civilian, civilian, .mg-11 {
   --mg-color: /*#A376C0*/ #A686BC;
+  --mg-color-dark: #623d5b;
 }body {
   background: url(https://vvvaporwaves.github.io/jcink-coding/portkey/v1/bg-cut.png) 0/cover fixed;
   color: #1d1422;
