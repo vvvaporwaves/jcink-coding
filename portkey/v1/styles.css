@@ -1067,7 +1067,7 @@ video {
 }body #wrapper #inner-wrapper #board-statistics #board-stats-container #recent-topics-container #recent-topics #recent-topics-inner div a:first-of-type {
   font-family: "portkey-reg";
   text-transform: lowercase;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }body #wrapper #inner-wrapper #board-statistics #board-stats-container #recent-topics-container #recent-topics #recent-topics-inner div a:first-of-type strong {
   font-weight: normal !important;
 }
