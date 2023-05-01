@@ -812,11 +812,11 @@ video {
   transform-origin: 10px;
 }body #wrapper #inner-wrapper #category-4 h2 .deco-container div[class*=star-]:nth-of-type(3)::before {
   font-size: 1.1rem;
-}body #wrapper #inner-wrapper #category-4 div[id*=forum-]:not(#forum-22) {
+}body #wrapper #inner-wrapper #category-4 div[id*=forum-]:not(#forum-21) {
   border-bottom: 1px solid #1d1422;
 }body #wrapper #inner-wrapper #category-4 div[id*=forum-]:is(#forum-20) {
   border-right: 1px solid #1d1422;
-}body #wrapper #inner-wrapper #category-4 #forum-22 {
+}body #wrapper #inner-wrapper #category-4 #forum-21 {
   grid-column: 1/3;
 }body #wrapper #inner-wrapper #category-5 h2 span {
   display: block;
