@@ -2,6 +2,7 @@
     border: 1px solid rgba(0, 0, 0, 0.5);
     width: 700px;
     margin: 0 auto 2rem;
+    font-size: 0.8rem;
   }
   #vee-app header {
     display: flex;
@@ -175,7 +176,6 @@
 #vee-app #vee-content-container article .vee-content {
     height: 348px!important;
     padding-right: 1rem;
-    font-size: 0.8rem
 } 
 
 .vee-content hr {
@@ -223,7 +223,6 @@
     text-transform: uppercase; 
     color: var(--mg-color); 
     font-weight: bold; 
-    font-size: 0.6rem; 
     letter-spacing: 0.1ch;
 }
 
