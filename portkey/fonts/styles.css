@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'pki';
+  font-family: "pki";
   src:  url('https://vvvaporwaves.github.io/jcink-coding/portkey/fonts/portkey.eot');
   src:  url('https://vvvaporwaves.github.io/jcink-coding/portkey/fonts/portkey.eot#iefix') format('embedded-opentype'),
     url('https://vvvaporwaves.github.io/jcink-coding/portkey/fonts/portkey.ttf?zenvgs') format('truetype'),
-    url('https://vvvaporwaves.github.io/jcink-coding/portkey/fonts/portkey.woff?zenvgs') format('woff')
+    url('https://vvvaporwaves.github.io/jcink-coding/portkey/fonts/portkey.woff?zenvgs') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="pki-"], [class*="pki-"] {
+div[id*="star-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'pki' !important;
+  font-family: "pki" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -24,15 +24,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.pki-med-star-4:before {
+div[id*="star-"]:before {
   content: "\e900";
-}
-.pki-thin-star-4:before {
-  content: "\e901";
-}
-.pki-thin-star-8:before {
-  content: "\e902";
-}
-.pki-thick-star-4:before {
-  content: "\e903";
 }
