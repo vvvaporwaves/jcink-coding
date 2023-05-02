@@ -579,7 +579,7 @@ video {
 }body #wrapper #inner-wrapper div[id*=category-] div[id*=forum-] .last-post .last-post-icon::before {
   content: "";
   display: block;
-  background: #66B2B2;
+  background: var(--mg-color-light);
   width: 100%;
   height: 100%;
   z-index: 3;
