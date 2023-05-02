@@ -343,29 +343,29 @@ video {
   font-style: normal;
   font-display: swap;
 }.mg-4, .admin {
-  --mg-color: #dfb1d4;
-  --mg-color-dark: #5b3653;
+  --mg-color-light: #dfb1d4;
+  --mg-color: #5b3653;
 }.mg-3, .member {
-  --mg-color: #ad9792;
-  --mg-color-dark: #442c27;
+  --mg-color-light: #ad9792;
+  --mg-color: #442c27;
 }.hufflepuff, hufflepuff, .mg-8 {
-  --mg-color: /*#BBAD6C*/ #BCB186;
-  --mg-color-dark: #625A3B;
+  --mg-color-light: /*#BBAD6C*/ #BCB186;
+  --mg-color: #625A3B;
 }.gryffindor, gryffindor, .mg-6 {
-  --mg-color: /*#C95656*/ #BC8686;
-  --mg-color-dark: #552525;
+  --mg-color-light: /*#C95656*/ #BC8686;
+  --mg-color: #552525;
 }.ravenclaw, ravenclaw, .mg-7 {
-  --mg-color: /*#527BBA*/ #8694BC;
-  --mg-color-dark: #303953;
+  --mg-color-light: /*#527BBA*/ #8694BC;
+  --mg-color: #303953;
 }.slytherin, slytherin, .mg-9 {
-  --mg-color: /*#78AF6B*/ #8DBC86;
-  --mg-color-dark: #385733
+  --mg-color-light: /*#78AF6B*/ #8DBC86;
+  --mg-color: #385733
 }.faculty, faculty, .mg-10 {
-  --mg-color: /*#66B2B2*/ #86BCBC;
-  --mg-color-dark: #3B6262;
+  --mg-color-light: /*#66B2B2*/ #86BCBC;
+  --mg-color: #3B6262;
 }.civilian, civilian, .mg-11 {
-  --mg-color: /*#A376C0*/ #A686BC;
-  --mg-color-dark: #512849;
+  --mg-color-light: /*#A376C0*/ #A686BC;
+  --mg-color: #512849;
 }body {
   background: url(https://vvvaporwaves.github.io/jcink-coding/portkey/v1/bg-cut.png) 0/cover fixed;
   color: #1d1422;
@@ -944,7 +944,7 @@ video {
   justify-items: center;
   width: 300px;
   padding: 2rem;
-  background: var(--mg-color);
+  background: var(--mg-color-light);
   border: 1px solid #1d1422;
   box-sizing: content-box;
   border-radius: 50% 50% 10px 10px;
@@ -971,7 +971,7 @@ video {
   margin-bottom: 0.25rem;
 }body #wrapper #inner-wrapper #board-statistics #board-stats-header .account-stat {
   grid-row: 2/3;
-  background: var(--mg-color);
+  background: var(--mg-color-light);
   height: 75px;
   width: 75px;
   padding-top: 0.5rem;
