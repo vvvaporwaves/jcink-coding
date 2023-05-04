@@ -498,7 +498,7 @@ video {
   background: #BC9786;
   -webkit-backdrop-filter: blur(0.75px);
           backdrop-filter: blur(0.75px);
-  border-bottom: 1px solid #1d1422
+  border-bottom: 1px solid #1d1422;
   background: url(https://vvvaporwaves.github.io/jcink-coding/portkey/v1/bg-cut.png) 0/cover fixed;
 }body #wrapper #inner-wrapper #sticky-nav nav {
   padding: 0.5rem 1rem 0.5rem;
