@@ -27,3 +27,7 @@ div[id*="star-"] {
 div[id*="star-"]:before {
   content: "\e900";
 }
+
+div[class="hh-post-0"]:after {
+  content: "\e900";
+}
