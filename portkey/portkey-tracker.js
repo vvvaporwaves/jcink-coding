@@ -75,3 +75,4 @@ const makeRequest = (method, url) => {
     };
     xhr.send();
   });
+};
