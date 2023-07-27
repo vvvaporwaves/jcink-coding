@@ -1,8 +1,3 @@
-/** CONFIG -- Setup your characters. */
-const CHARACTERS = new Set();
-CHARACTERS.add("zheng yuze");
-CHARACTERS.add("song qian");
-
 /** CONFIG -- Setup your symbol for owed/not owed. */
 const OWED =
   '<span class="owed"><i class="fa-solid fa-circle-dashed"></i></span>';
