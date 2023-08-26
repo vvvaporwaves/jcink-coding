@@ -2263,12 +2263,12 @@ body #container #category-3 #forum-9 .subforums {
 body #container #category-3 #forum-10 .subforums {
   padding-top: 8px;
 }
-body #container #category-100 #forum-1000 {
+body #container #category-4 #forum-56 {
   border-bottom-width: 0px;
   padding-left: 0px;
   padding-right: 0px;
 }
-body #container #category-100 #forum-1000 #tabs-categories {
+body #container #category-4 #forum-56 #tabs-categories {
   display: flex;
   justify-content: center;
   gap: 12px;
@@ -2279,39 +2279,39 @@ body #container #category-100 #forum-1000 #tabs-categories {
 }
 @media (min-width: 768px) {
 
-  body #container #category-100 #forum-1000 #tabs-categories {
+  body #container #category-4 #forum-56 #tabs-categories {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
 }
-body #container #category-100 #forum-1000 #tabs-categories .active {
+body #container #category-4 #forum-56 #tabs-categories .active {
   border-bottom-width: 1px;
 }
-body #container #category-100 #forum-1000 h4 a, body #container #category-100 #forum-1000 .subforums, body #container #category-100 #forum-1000 .latest-post {
+body #container #category-4 #forum-56 h4 a, body #container #category-4 #forum-56 .subforums, body #container #category-4 #forum-56 .latest-post {
   display: none;
 }
-body #container #category-100 #forum-1000 #tabs-extra-content {
+body #container #category-4 #forum-56 #tabs-extra-content {
   border-bottom-width: 1px;
   padding: 24px;
 }
-body #container #category-100 #forum-1000 #tabs-extra-content .ec-container {
+body #container #category-4 #forum-56 #tabs-extra-content .ec-container {
   display: grid;
   gap: 16px;
 }
 @media (min-width: 1024px) {
 
-  body #container #category-100 #forum-1000 #tabs-extra-content .ec-container {
+  body #container #category-4 #forum-56 #tabs-extra-content .ec-container {
     grid-template-columns: 65% 35%;
   }
 }
-body #container #category-100 #forum-1000 #tabs-extra-content .ec-container h4 {
+body #container #category-4 #forum-56 #tabs-extra-content .ec-container h4 {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
-body #container #category-100 #forum-1000 #tabs-extra-content > div {
+body #container #category-4 #forum-56 #tabs-extra-content > div {
   display: none;
 }
-body #container #category-100 #forum-1000 #tabs-extra-content > div.active {
+body #container #category-4 #forum-56 #tabs-extra-content > div.active {
   display: block;
 }
 body #container #tabs-content {
