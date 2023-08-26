@@ -2264,9 +2264,9 @@ body #container #category-3 #forum-10 .subforums {
   padding-top: 8px;
 }
 body #container #category-4 #forum-56 {
-  border-bottom-width: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
+  border-bottom-width: 0px!important;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
 }
 body #container #category-4 #forum-56 #tabs-categories {
   display: flex;
