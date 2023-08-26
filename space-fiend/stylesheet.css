@@ -1492,70 +1492,70 @@ html {
 }
 @font-face {
   font-family: "pixel";
-  src: url("./assets/fonts/pokemon_pixel_font.woff") format("woff");
+  src: url("https://files.jcink.net/uploads2/astonish/fonts/pokemon_pixel_font.woff") format("woff");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "cy";
-  src: url("./assets/fonts/Cytroni.woff2") format("woff2");
+  src: url("https://files.jcink.net/uploads2/astonish/fonts/Cytroni.woff2") format("woff2");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "cy";
-  src: url("./assets/fonts/Cytroni_italic.woff2") format("woff2");
+  src: url("https://files.jcink.net/uploads2/astonish/fonts/Cytroni_italic.woff2") format("woff2");
   font-style: italic;
   font-weight: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "ras";
-  src: url("./assets/fonts/RasputinRegular.woff") format("woff");
+  src: url("https://files.jcink.net/uploads2/astonish/fonts/RasputinRegular.woff") format("woff");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "ras";
-  src: url("./assets/fonts/RasputinSemiBold.woff") format("woff");
+  src: url("https://files.jcink.net/uploads2/astonish/fonts/RasputinSemibold.woff") format("woff");
   font-style: normal;
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: "ras";
-  src: url("./assets/fonts/RasputinBold.woff") format("woff");
+  src: url("https://files.jcink.net/uploads2/astonish/fonts/RasputinBold.woff") format("woff");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Regular.ttf") format("truetype");
+  src: url("https://files.jcink.net/uploads2/astonish/fonts/Roboto_Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Bold.ttf") format("truetype");
+  src: url("https://files.jcink.net/uploads2/astonish/fonts/Roboto_Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-BoldItalic.ttf") format("truetype");
+  src: url("https://files.jcink.net/uploads2/astonish/fonts/Roboto_BoldItalic.ttf") format("truetype");
   font-style: italic;
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("./assets/fonts/Roboto-Italic.ttf") format("truetype");
+  src: url("https://files.jcink.net/uploads2/astonish/fonts/Roboto_Italic.ttf") format("truetype");
   font-style: italic;
   font-weight: 400;
   font-display: swap;
