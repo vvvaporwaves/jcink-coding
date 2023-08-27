@@ -2354,22 +2354,25 @@ body #container #tabs-content #category-5 #forum-11 {
   body #container #tabs-content #category-5 #forum-11 {
     grid-column: span 2 / span 2;
   }
-
-  body #container #tabs-content #category-6 #forum-14 {
-    grid-column: span 2 / span 2;
-  }
-
-  body #container #tabs-content #category-7 #forum-33 {
-    grid-column: span 2 / span 2;
-  }
-
-  body #container #tabs-content #category-8 #forum-30 {
-    grid-column: span 2 / span 2;
-  }
 }
 @media (min-width: 1024px) {
 
   body #container #tabs-content #category-5 #forum-11 .capital-desc {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body #container #tabs-content #category-6 #forum-14 .capital-desc {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body #container #tabs-content #category-7 #forum-33 .capital-desc {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body #container #tabs-content #category-8 #forum-30 .capital-desc {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
