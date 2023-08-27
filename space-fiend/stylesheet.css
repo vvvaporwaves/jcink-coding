@@ -1062,6 +1062,24 @@ html {
     display: none;
   }
 }
+.inline-lghidden {
+  display: inline;
+}
+@media (min-width: 1024px) {
+
+  .inline-lghidden {
+    display: none;
+  }
+}
+.hidden-lginline {
+  display: none;
+}
+@media (min-width: 1024px) {
+
+  .hidden-lginline {
+    display: inline;
+  }
+}
 .bg-o-25 {
     --tw-bg-opacity: 0.25!important;
   }
@@ -2362,12 +2380,6 @@ body #container #tabs-content #category-5 #forum-11 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  body #container #tabs-content #category-5 #forum-13 {
-    grid-column: span 2 / span 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-
   body #container #tabs-content #category-6 #forum-14 .capital-desc {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2385,6 +2397,24 @@ body #container #tabs-content #category-5 #forum-11 {
 }
 @media (min-width: 768px) {
 
+  body #container #tabs-content #category-5 #forum-13 {
+    grid-column: span 2 / span 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    -moz-column-gap: 12px;
+         column-gap: 12px;
+  }
+
+  body #container #tabs-content #category-5 #forum-13 h4 {
+    grid-column: span 2 / span 2;
+  }
+
+  body #container #tabs-content #category-5 #forum-13 .latest-post {
+    margin-top: 0px;
+  }
+  
   body #container #tabs-content #category-5 #forum-12 {
     border-right-width: 1px;
   }
