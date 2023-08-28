@@ -2799,11 +2799,12 @@ body #site-statistics #recent-topics #rt-container {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
   overflow: auto;
+  margin-top: 16px;
 }
 @media (min-width: 768px) {
 
   body #site-statistics #recent-topics #rt-container {
-    height: 460px;
+    height: calc(460px - 17px);
     display: block;
   }
 }
