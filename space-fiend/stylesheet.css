@@ -1688,7 +1688,7 @@ body #container #site-header #main-title #h1 {
   padding-top: 16px;
   padding-botom: 16px;
   font-family: cy;
-  font-size: 6rem;
+  font-size: 5.5rem;
   line-height: 1;
 }
 :is(.dark body #container #site-header #main-title #h1) {
