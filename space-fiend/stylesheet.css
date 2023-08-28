@@ -1608,8 +1608,10 @@ body #container {
 }
 body #nav-bar {
   z-index: 999;
+  max-width: 1000px;
   position: sticky;
   top: 0px;
+  margin: auto;
   display: grid;
   grid-template-columns: 75% 25%;
   border-bottom-width: 1px;
@@ -1624,6 +1626,15 @@ body #nav-bar {
   --tw-bg-opacity: 1;
   background-color: hsl(233 31% 94% / var(--tw-bg-opacity));
 }
+
+@media (min-width: 1024px) {
+
+  body #nav-bar {
+    border-left-width: 1px;
+    border-right-width: 1px;
+  }
+}
+
 body #nav-bar #light-on {
   display: block;
 }
