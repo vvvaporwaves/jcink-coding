@@ -1686,6 +1686,7 @@ body #container #site-header #main-title #h1 {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 16px;
+  padding-botom: 16px;
   font-family: cy;
   font-size: 6rem;
   line-height: 1;
@@ -1981,7 +1982,7 @@ body #container div[id*=category-] div[id*=forum-] .subforums a {
 body #container #category-1 #forum-1 h4 a {
   padding-bottom: 12px;
   font-family: cy;
-  font-size: 5.5rem;
+  font-size: 5rem;
   line-height: 1;
   font-weight: 700;
 }
