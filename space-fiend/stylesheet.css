@@ -2804,7 +2804,7 @@ body #site-statistics #recent-topics #rt-container {
 @media (min-width: 768px) {
 
   body #site-statistics #recent-topics #rt-container {
-    height: calc(460px - 17px);
+    height: calc(460px - 18px);
     display: block;
   }
 }
