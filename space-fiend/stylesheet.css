@@ -2757,6 +2757,7 @@ body #site-statistics #recent-topics {
   grid-column-end: 3;
   border-bottom-width: 1px;
   padding: 16px;
+  padding-top: 0px;
   padding-bottom: 24px;
 }
 @media (min-width: 768px) {
@@ -2767,14 +2768,14 @@ body #site-statistics #recent-topics {
     grid-row-start: 2;
     grid-row-end: 6;
     border-left-width: 1px;
+    display: grid;
+    grid-template-rows: 51px auto;
   }
 }
 body #site-statistics #recent-topics h6 {
     font-family: 'ras';
-    margin-top: -11px;
     margin-left: -16px;
     margin-right: -16px;
-    margin-bottom: 16px;
     display: flex;
     align-items: center;
     place-self: start;
@@ -2789,7 +2790,7 @@ body #site-statistics #recent-topics h6 {
 @media (min-width: 768px) {
 
   body #site-statistics #recent-topics h6 {
-    height: 46px;
+    place-self: normal;
   }
 }
 body #site-statistics #recent-topics #rt-container {
