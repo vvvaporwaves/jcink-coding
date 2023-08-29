@@ -2410,7 +2410,7 @@ body #container #tabs-content #category-5 #forum-11 {
 }
 @media (min-width: 768px) {
 
-  body #container #tabs-content #category-5 #forum-13, body #container #tabs-content #category-7 #forum-45,  {
+  body #container #tabs-content #category-5 #forum-13, body #container #tabs-content #category-7 #forum-45 {
     grid-column: span 2 / span 2;
     grid-row-start: 2;
     grid-row-end: 3;
