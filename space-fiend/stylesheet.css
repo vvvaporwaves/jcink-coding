@@ -2420,15 +2420,15 @@ body #container #tabs-content #category-5 #forum-11 {
          column-gap: 12px;
   }
 
-  body #container #tabs-content #category-5 #forum-13 h4 {
+  body #container #tabs-content #category-5 #forum-13 h4, body #container #tabs-content #category-7 #forum-45 h4 {
     grid-column: span 2 / span 2;
   }
 
-  body #container #tabs-content #category-5 #forum-13 .latest-post {
+  body #container #tabs-content #category-5 #forum-13 .latest-post, body #container #tabs-content #category-7 #forum-45 .latest-post {
     margin-top: 0px;
   }
   
-  body #container #tabs-content #category-5 #forum-12 {
+  body #container #tabs-content #category-5 #forum-12, body #container #tabs-content #category-5 #forum-43 {
     border-right-width: 1px;
   }
 }
