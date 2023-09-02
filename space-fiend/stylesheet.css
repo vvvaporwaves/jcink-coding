@@ -1492,7 +1492,7 @@ html {
   --mainDark: hsl(192, 49%, 34%);
 }
 .sophist {
-  --main: hsl(40, 82%, 61%);
+  --main: hsl(40.1, 61.2%, 54.5%);
   --mainDark: hsl(40, 62%, 31%);
 }
 .aphidoidea {
