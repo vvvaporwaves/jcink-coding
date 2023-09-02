@@ -990,7 +990,7 @@ html {
   border-bottom-right-radius: inherit;
   border-top-right-radius: inherit;
 }
-.avatar.online:before {
+.avatar.Online:before {
   content: "";
   position: absolute;
   z-index: 10;
@@ -2837,48 +2837,48 @@ body #site-statistics #recent-topics #rt-container {
 body #container #main-profile {
   padding-top: 24px;
 }
-body #container #main-profile.online a, body #container #main-profile.online b, body #container #main-profile.online .trait {
+body #container #main-profile.Online a, body #container #main-profile.Online b, body #container #main-profile.Online .trait {
   color: var(--mainDark);
 }
-:is(.dark body #container #main-profile.online a),:is(.dark  body #container #main-profile.online b),:is(.dark  body #container #main-profile.online .trait) {
+:is(.dark body #container #main-profile.Online a),:is(.dark  body #container #main-profile.Online b),:is(.dark  body #container #main-profile.Online .trait) {
   color: var(--main);
 }
-body #container #main-profile.online #mp-header #online-status {
+body #container #main-profile.Online #mp-header #online-status {
   background-color: var(--mainDark);
 }
-:is(.dark body #container #main-profile.online #mp-header #online-status) {
+:is(.dark body #container #main-profile.Online #mp-header #online-status) {
   background-color: var(--main);
 }
-body #container #main-profile.online #mp-body .flavor-text {
+body #container #main-profile.Online #mp-body .flavor-text {
   background-color: var(--mainDark);
 }
-:is(.dark body #container #main-profile.online #mp-body .flavor-text) {
+:is(.dark body #container #main-profile.Online #mp-body .flavor-text) {
   background-color: var(--main);
 }
-body #container #main-profile.online #mp-body #mpc-tabs::before {
+body #container #main-profile.Online #mp-body #mpc-tabs::before {
   --tw-gradient-from: var(--mainDark) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-:is(.dark body #container #main-profile.online #mp-body #mpc-tabs)::before {
+:is(.dark body #container #main-profile.Online #mp-body #mpc-tabs)::before {
   --tw-gradient-from: var(--main) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-body #container #main-profile.offline a, body #container #main-profile.offline b, body #container #main-profile.offline .trait {
+body #container #main-profile.Offline a, body #container #main-profile.Offline b, body #container #main-profile.Offline .trait {
   --tw-text-opacity: 1;
   color: hsl(301 36% 62% / var(--tw-text-opacity));
 }
-:is(.dark body #container #main-profile.offline a),:is(.dark  body #container #main-profile.offline b),:is(.dark  body #container #main-profile.offline .trait) {
+:is(.dark body #container #main-profile.Offline a),:is(.dark  body #container #main-profile.Offline b),:is(.dark  body #container #main-profile.Offline .trait) {
   --tw-text-opacity: 1;
   color: hsl(240 49% 47% / var(--tw-text-opacity));
 }
-body #container #main-profile.offline #mp-body #mpc-tabs::before {
+body #container #main-profile.Offline #mp-body #mpc-tabs::before {
   --tw-gradient-from: hsl(301, 36%, 62%) var(--tw-gradient-from-position);
   --tw-gradient-to: hsl(301 36% 62% / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
-:is(.dark body #container #main-profile.offline #mp-body #mpc-tabs)::before {
+:is(.dark body #container #main-profile.Offline #mp-body #mpc-tabs)::before {
   --tw-gradient-from: hsl(240, 49%, 47%) var(--tw-gradient-from-position);
   --tw-gradient-to: hsl(240 49% 47% / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
