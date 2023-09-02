@@ -1233,6 +1233,9 @@ html {
 .absolute {
   position: absolute;
 }
+.relative {
+  position: relative;
+}
 .-top-5 {
   top: -32px;
 }
