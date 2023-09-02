@@ -2876,8 +2876,6 @@ body #container #main-profile.offline #mp-body #mpc-tabs::before {
 }
 body #container #main-profile #mp-header {
   grid-template-columns: auto 275px;
-  grid-template-rows: auto auto auto auto;
-  padding: 16px;
 }
 @media (min-width: 768px) {
 
@@ -2885,18 +2883,22 @@ body #container #main-profile #mp-header {
     grid-template-rows: 100px auto auto auto;
   }
 }
+body #container #main-profile #mp-header {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+  padding: 16px;
+}
 body #container #main-profile #mp-header #online-status {
     font-family: 'ras';
     letter-spacing: 0.1ch;
-    z-index: 50;
     margin-right: -75px;
+    max-width: 200px;
+    z-index: 50;
     margin-left: 24px;
     margin-top: 32px;
     height: -moz-fit-content;
     height: fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    max-width: 200px;
     justify-self: end;
     border-width: 1px;
     --tw-bg-opacity: 1;
@@ -2921,11 +2923,11 @@ body #container #main-profile #mp-header #online-status {
 }
 body #container #main-profile #mp-header h3 {
     font-family: 'cy';
+    margin-top: -50px;
     z-index: 50;
     grid-column: span 2 / span 2;
     grid-row-start: 3;
     grid-row-end: 4;
-    margin-top: -50px;
     align-self: center;
     padding-left: 0px;
     padding-right: 0px;
@@ -2978,8 +2980,8 @@ body #container #main-profile #mp-header #mp-banner #mp-banner-img {
 @media (min-width: 768px) {
 
   body #container #main-profile #mp-header #mp-banner #mp-banner-img {
-    aspect-ratio: auto;
     height: 400px;
+    aspect-ratio: auto;
   }
 }
 body #container #main-profile #mp-header #plot-page {
@@ -3013,18 +3015,18 @@ body #container #main-profile #mp-body {
   padding-bottom: 16px;
 }
 body #container #main-profile #mp-body #mpc-tabs {
+  grid-template-rows: 50px 50px;
+  height: 200px;
   position: relative;
   display: grid;
-  height: 200px;
-  grid-template-rows: 50px 50px;
   align-content: center;
   align-items: center;
   justify-content: flex-start;
 }
 body #container #main-profile #mp-body #mpc-tabs::before {
   background-image: radial-gradient(var(--tw-gradient-stops));
-  position: absolute;
   left: -50%;
+  position: absolute;
   z-index: 40;
   display: block;
   height: 100%;
@@ -3056,6 +3058,8 @@ body #container #main-profile #mp-body #mpc-tabs li.active::before {
 }
 body #container #main-profile #mp-body #mpc-tabs li::before {
     font-family: 'ras';
+    --tw-content: attr(data-mpc);
+    content: var(--tw-content);
     z-index: 50;
     cursor: pointer;
     font-size: 2.25rem;
@@ -3066,8 +3070,6 @@ body #container #main-profile #mp-body #mpc-tabs li::before {
     transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
     transition-duration: 150ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    --tw-content: attr(data-mpc);
-    content: var(--tw-content);
   }
 body #container #main-profile #mp-body #mpc-content {
   position: relative;
@@ -3115,6 +3117,7 @@ body #container #main-profile #mp-body #mpc-content.Basics #basics-info li .trai
   }
 body #container #main-profile #mp-body #mpc-content.Basics #basics-info li.flavor-text {
     font-family: 'ras';
+    letter-spacing: 0.05ch;
     position: relative;
     grid-column: span 2 / span 2;
     margin-bottom: 12px;
@@ -3124,7 +3127,6 @@ body #container #main-profile #mp-body #mpc-content.Basics #basics-info li.flavo
     font-size: 1.125rem;
     line-height: 1.75rem;
     font-style: italic;
-    letter-spacing: 0.05ch;
   }
 @media (min-width: 1024px) {
 
@@ -3133,19 +3135,19 @@ body #container #main-profile #mp-body #mpc-content.Basics #basics-info li.flavo
   }
 }
 body #container #main-profile #mp-body #mpc-content.Basics #basics-info li.flavor-text .fa-quote-left {
-  position: absolute;
   top: 0.75rem;
   left: 0.75rem;
+  position: absolute;
   font-size: 1.875rem;
   line-height: 2.25rem;
   opacity: 0.25;
 }
 body #container #main-profile #mp-body #mpc-content.Basics #basics-face {
+  grid-template-columns: 78px auto;
   margin-left: -24px;
   margin-right: -24px;
   margin-top: 24px;
   display: grid;
-  grid-template-columns: 78px auto;
   gap: 12px;
   padding-right: 24px;
 }
