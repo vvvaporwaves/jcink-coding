@@ -1774,7 +1774,7 @@ body #container #site-header #main-image {
   width: 100%;
   place-self: end;
   overflow: hidden;
-  background-image: url('https://files.jcink.net/uploads2/astonish/dark_header.png');
+  background-image: url('https://files.jcink.net/uploads2/astonish/a8a0e4b4-dark_header.png');
   background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
@@ -1783,7 +1783,7 @@ body #container #site-header #main-image {
   background-position: right top -5rem;
   border-bottom-left-radius: 400px;
   border-top-right-radius: 0px;
-  background-image: url('https://files.jcink.net/uploads2/astonish/light_header.png');
+  background-image: url('https://files.jcink.net/uploads2/astonish/afab6d7d-light_header.png');
   background-size: cover;
 }
 @media (min-width: 768px) {
