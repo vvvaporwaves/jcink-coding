@@ -2850,18 +2850,18 @@ body #container #main-profile.Online #mp-header #online-status {
   background-color: var(--main);
 }
 body #container #main-profile.Online #mp-body .flavor-text {
-  background-color: var(--mainDark);
-}
-:is(.dark body #container #main-profile.Online #mp-body .flavor-text) {
   background-color: var(--main);
 }
+:is(.dark body #container #main-profile.Online #mp-body .flavor-text) {
+  background-color: var(--mainDark);
+}
 body #container #main-profile.Online #mp-body #mpc-tabs::before {
-  --tw-gradient-from: var(--mainDark) var(--tw-gradient-from-position);
+  --tw-gradient-from: var(--main) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 :is(.dark body #container #main-profile.Online #mp-body #mpc-tabs)::before {
-  --tw-gradient-from: var(--main) var(--tw-gradient-from-position);
+  --tw-gradient-from: var(--mainDark) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
