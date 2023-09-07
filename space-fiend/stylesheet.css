@@ -3024,8 +3024,8 @@ body #container #main-profile #mp-body {
   padding-bottom: 16px;
 }
 body #container #main-profile #mp-body #mpc-tabs {
-  grid-template-rows: 50px 50px;
-  height: 200px;
+  grid-template-rows: 50px 50px 50px;
+  height: 250px;
   position: relative;
   display: grid;
   align-content: center;
