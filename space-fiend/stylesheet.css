@@ -1149,22 +1149,7 @@ html {
     align-items: flex-start;
   }
 }
-.bg-f-strategos {
-  --tw-bg-opacity: 1;
-  background-color: hsl(22 51% 38% / var(--tw-bg-opacity));
-}
-:is(.dark .bg-f-strategos) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(22 77% 61% / var(--tw-bg-opacity));
-}
-.bg-f-thiarchos {
-  --tw-bg-opacity: 1;
-  background-color: hsl(280 36% 36% / var(--tw-bg-opacity));
-}
-:is(.dark .bg-f-thiarchos) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(280 56% 66% / var(--tw-bg-opacity));
-}
+
 .stat-thiarchos {
   border-bottom-width: 1px;
 }
@@ -1175,14 +1160,7 @@ html {
     border-right-width: 1px;
   }
 }
-.bg-f-krisigos {
-  --tw-bg-opacity: 1;
-  background-color: hsl(74 51% 28% / var(--tw-bg-opacity));
-}
-:is(.dark .bg-f-krisigos) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(74 71% 58% / var(--tw-bg-opacity));
-}
+
 .stat-krisigos {
   border-bottom-width: 1px;
   border-right-width: 1px;
@@ -1193,14 +1171,7 @@ html {
     border-right-width: 0px;
   }
 }
-.bg-f-mnemntia {
-  --tw-bg-opacity: 1;
-  background-color: hsl(192 49% 34% / var(--tw-bg-opacity));
-}
-:is(.dark .bg-f-mnemntia) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(192 69% 71% / var(--tw-bg-opacity));
-}
+
 .stat-mnemntia {
   border-bottom-width: 1px;
 }
@@ -1211,22 +1182,7 @@ html {
     border-right-width: 1px;
   }
 }
-.bg-f-sophist {
-  --tw-bg-opacity: 1;
-  background-color: hsl(40 62% 31% / var(--tw-bg-opacity));
-}
-:is(.dark .bg-f-sophist) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(40 82% 61% / var(--tw-bg-opacity));
-}
-.bg-f-aphidoidea {
-  --tw-bg-opacity: 1;
-  background-color: hsl(159 41% 32% / var(--tw-bg-opacity));
-}
-:is(.dark .bg-f-aphidoidea) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(159 61% 62% / var(--tw-bg-opacity));
-}
+
 .static {
   position: static;
 }
@@ -2188,35 +2144,27 @@ body #container #category-3 #forum-6 .roster-quicklinks a {
     text-transform: uppercase;
     --tw-text-opacity: 1;
     color: hsl(0 0% 75% / var(--tw-text-opacity));
-  }
+    background: var(--mainDark);
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
 :is(.dark body #container #category-3 #forum-6 .roster-quicklinks a) {
   --tw-text-opacity: 1;
   color: hsl(240 3% 6% / var(--tw-text-opacity));
+  background: var(--main);
 }
-body #container #category-3 #forum-6 .roster-quicklinks a {
-  display: flex;
-  cursor: pointer;
-  align-items: center;
-}
+
 body #container #category-3 #forum-6 .roster-quicklinks .strategos {
   border-bottom-width: 1px;
   border-right-width: 1px;
-  --tw-bg-opacity: 1;
-  background-color: hsl(22 51% 38% / var(--tw-bg-opacity));
 }
-:is(.dark body #container #category-3 #forum-6 .roster-quicklinks .strategos) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(22 77% 61% / var(--tw-bg-opacity));
-}
+
 body #container #category-3 #forum-6 .roster-quicklinks .thiarchos {
   border-bottom-width: 1px;
   --tw-bg-opacity: 1;
-  background-color: hsl(280 36% 36% / var(--tw-bg-opacity));
 }
-:is(.dark body #container #category-3 #forum-6 .roster-quicklinks .thiarchos) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(280 56% 66% / var(--tw-bg-opacity));
-}
+
 @media (min-width: 768px) {
 
   body #container #category-3 #forum-6 .roster-quicklinks .thiarchos {
@@ -2232,13 +2180,8 @@ body #container #category-3 #forum-6 .roster-quicklinks .thiarchos {
 body #container #category-3 #forum-6 .roster-quicklinks .krisigos {
   border-bottom-width: 1px;
   border-right-width: 1px;
-  --tw-bg-opacity: 1;
-  background-color: hsl(74 51% 28% / var(--tw-bg-opacity));
 }
-:is(.dark body #container #category-3 #forum-6 .roster-quicklinks .krisigos) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(74 71% 58% / var(--tw-bg-opacity));
-}
+
 @media (min-width: 768px) {
 
   body #container #category-3 #forum-6 .roster-quicklinks .krisigos {
@@ -2253,13 +2196,8 @@ body #container #category-3 #forum-6 .roster-quicklinks .krisigos {
 }
 body #container #category-3 #forum-6 .roster-quicklinks .mnemntia {
   border-bottom-width: 1px;
-  --tw-bg-opacity: 1;
-  background-color: hsl(192 49% 34% / var(--tw-bg-opacity));
 }
-:is(.dark body #container #category-3 #forum-6 .roster-quicklinks .mnemntia) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(192 69% 71% / var(--tw-bg-opacity));
-}
+
 @media (min-width: 768px) {
 
   body #container #category-3 #forum-6 .roster-quicklinks .mnemntia {
@@ -2277,20 +2215,8 @@ body #container #category-3 #forum-6 .roster-quicklinks .mnemntia {
 body #container #category-3 #forum-6 .roster-quicklinks .sophists {
   border-right-width: 1px;
   --tw-bg-opacity: 1;
-  background-color: hsl(40 62% 31% / var(--tw-bg-opacity));
 }
-:is(.dark body #container #category-3 #forum-6 .roster-quicklinks .sophists) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(40 82% 61% / var(--tw-bg-opacity));
-}
-body #container #category-3 #forum-6 .roster-quicklinks .aphidoidea {
-  --tw-bg-opacity: 1;
-  background-color: hsl(159 41% 32% / var(--tw-bg-opacity));
-}
-:is(.dark body #container #category-3 #forum-6 .roster-quicklinks .aphidoidea) {
-  --tw-bg-opacity: 1;
-  background-color: hsl(159 61% 62% / var(--tw-bg-opacity));
-}
+
 body #container #category-3 #forum-9 .subforums {
   padding-top: 8px;
 }
