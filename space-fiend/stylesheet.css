@@ -3024,6 +3024,7 @@ body #container #main-profile #mp-body #mpc-content {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-duration: 150ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
 }
 body #container #main-profile #mp-body #mpc-content.active {
   z-index: 50;
