@@ -2781,6 +2781,11 @@ body #container #main-profile.Online #mp-body .flavor-text {
 :is(.dark body #container #main-profile.Online #mp-body .flavor-text) {
   background-color: var(--main);
 }
+
+.Biography tw::before {
+  content: "/f071";
+}
+
 body #container #main-profile.Online #mp-body #mpc-tabs::before {
   --tw-gradient-from: var(--mainDark) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
