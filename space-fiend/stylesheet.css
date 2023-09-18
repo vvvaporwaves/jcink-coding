@@ -2783,7 +2783,7 @@ body #container #main-profile.Online #mp-body .flavor-text {
 }
 
 .Biography tw::before {
-  content: "/f071";
+  content: "\f071";
 }
 
 body #container #main-profile.Online #mp-body #mpc-tabs::before {
