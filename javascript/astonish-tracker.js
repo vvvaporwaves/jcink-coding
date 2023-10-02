@@ -33,16 +33,6 @@ const getThreadPage = async (thread, url) => {
   setOwed(thread, res);
 };
 
-window.addEventListener("load", (event) => {
-  console.log("page is fully loaded");
-
-  for (let i = 0; i < threads.length; i++) {
-    let url = threads[i].querySelector("a").href;
-    // console.log(url);
-    getThreadPage(threads[i], url);
-  }
-});
-
 const makeRequest = (method, url) => {
   return new Promise(function (resolve, reject) {
     let xhr = new XMLHttpRequest();
